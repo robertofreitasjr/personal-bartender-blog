@@ -1292,6 +1292,11 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
+.cid-r9fLEmKF8W {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/mbr-1920x1271.jpg");
+}
 .cid-r9fFJ9oFnc .navbar {
   background: #a9e4b5;
   transition: none;
@@ -1689,8 +1694,12 @@ body {
 .cid-r9fFJ9oFnc .dropdown-item:hover {
   color: #444444 !important;
 }
-.cid-r9fLEmKF8W {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/mbr-1920x1271.jpg");
+.cid-r9fQJywozT {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-r9fQJywozT .mbr-text,
+.cid-r9fQJywozT blockquote {
+  color: #767676;
 }
