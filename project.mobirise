@@ -493,22 +493,22 @@
         },
         {
           "_params": {
-            "blockTitle": "<h3>Block Title</h3>",
+            "blockTitle": "",
             "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<!-- personalbartender_adwidegt1_AdSense1_1x1_as -->\n<ins class=\"adsbygoogle\"\n     style=\"display:block\"\n     data-ad-client=\"ca-pub-4098743594291825\"\n     data-ad-slot=\"4508525238\"\n     data-ad-format=\"auto\"\n     data-full-width-responsive=\"true\"></ins>\n<script>\n(adsbygoogle = window.adsbygoogle || []).push({});\n</script>",
             "extEdit": true,
-            "paddingTop": 20,
+            "paddingTop": "20",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "blockTitle": "<h3>Block Title</h3>",
+          "blockTitle": "",
           "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<!-- personalbartender_adwidegt1_AdSense1_1x1_as -->\n<ins class=\"adsbygoogle\"\n     style=\"display:block\"\n     data-ad-client=\"ca-pub-4098743594291825\"\n     data-ad-slot=\"4508525238\"\n     data-ad-format=\"auto\"\n     data-full-width-responsive=\"true\"></ins>\n<script>\n(adsbygoogle = window.adsbygoogle || []).push({});\n</script>",
-          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
+          "paddingTop": ".block {padding-bottom:20px; padding-top:20px;}",
           "alias": "htmlblock",
           "_tags": [
             "Extension"
