@@ -14,10 +14,10 @@
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Anton",
-        "display1Size": "4",
+        "display1Size": 4.25,
         "display2Font": "Rubik",
         "display2Size": 3,
-        "display5Font": "Rubik",
+        "display5Font": "Anton",
         "display5Size": 1.5,
         "display7Font": "Rubik",
         "display7Size": 1,
@@ -31,10 +31,7 @@
         "#222222",
         "#000000",
         "#a9e4b5",
-        "#444444",
-        "#716b0b",
-        "#98d79a",
-        "#666666"
+        "#444444"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,7 +43,7 @@
         "url": "https://fonts.googleapis.com/css?family=Anton:400"
       }
     ],
-    "uniqCompNum": 10,
+    "uniqCompNum": 9,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/personal-bartender-favicon-2017.png",
@@ -544,21 +541,21 @@
         {
           "_params": {
             "blockTitle": "",
-            "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,green\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
+            "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,green\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
             "extEdit": true,
-            "paddingTop": 20,
+            "paddingTop": "20",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
           "blockTitle": "",
-          "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,green\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
-          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
+          "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,green\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
+          "paddingTop": ".block {padding-bottom:20px; padding-top:20px;}",
           "alias": "htmlblock",
           "_tags": [
             "Extension"
@@ -602,11 +599,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Pense e anote sobre todos os detalhes.\n<div>\n</div><div>O conceito, a inspiração, a ambientação e principalmente o nome da sua marca.\n</div><div>\n</div><div>Considere a escolha de um nome curto, de fácil assimilação, que tenha um significado diretamente relacionado ao conceito.\n</div><div>\n</div><div>E que seja uma palavra que poderá ser facilmente pronunciada, pois estamos em tempos de globalização, sendo assim, ouse imaginar um futuro onde o nome de sua empresa será reconhecido e citado em outras partes do mundo.\n</div><div>\n</div><div>Se for composto, prefira \"aliterações\", quando todas as palavras tem a mesma letra inicial, ou uma fonética parecida.\n</div><div>\n</div><div>Como por exemplo: Coca-Cola ou Roto-Rooter.\n</div><div>\n</div><div>Isso intensifica o efeito sonoro do que está sendo dito e facilita a memorização.\n</div><div>\n</div><div>Pesquise em órgãos de marcas e patentes se o nome escolhido já está sendo usado por outra pessoa ou empresa; e em caso negativo, garanta o registro para você, evitando complicações futuras relacionadas a isso.\n</div><div>\n</div><div>Verifique também a disponibilidade para aquisição do domínio de internet pro site e crie perfis em redes sociais, que atualmente são de extrema importância para construir uma boa reputação, se comunicar com seu público e divulgar seus produtos e serviços.\n</div><div>\n</div><div>Escolha com muita atenção as cores que serão usadas para a logomarca e a identidade visual.\n</div><div>\n</div><div>Cada cor tem um significado específico e provoca nas pessoas um efeito diferente. Isso é uma estratégia muito utilizada para obter resultados positivos em marketing.\n</div><div>\n</div><div>Procure usar no máximo duas ou três cores, para não poluir visualmente o material gráfico, uniformes e decoração.\n</div><div>\n</div><div>Ainda pensando sobre a ideia central de sua marca, defina em conjunto com os sócios a Missão, a Visão e os Valores que você quer transmitir ao seu público.\n</div><div>\n</div><div>A Missão se refere ao motivo da existência do negócio, para qual finalidade a empresa foi criada.\n</div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"A missão do restaurante El Miguelito é oferecer a melhor e mais autêntica comida mexicana para as pessoas de São Paulo.\"\n</div><div>\n</div><div>A Visão está relacionada ao objetivo de médio prazo, que deverá ser alcançado e mantido.\n</div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"A visão desta empresa é ser reconhecida como a maior referência em qualidade de atendimento no país todo.\"\n</div><div>\n</div><div>E os Valores fazem parte da cultura comportamental da empresa. Ações constantes que geram benefícios mútuos.\n</div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"Nossa empresa respeita e apóia o cuidado com o meio ambiente, protegendo a natureza.\"</div></div>\n        </div>\n    </div>\n</section>",
           "_cid": "r9UqkrayGO",
+          "_anchor": "content1-9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-9"
+          "_params": {}
         }
       ]
     }
