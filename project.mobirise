@@ -14,10 +14,10 @@
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Anton",
-        "display1Size": "4",
+        "display1Size": 4.25,
         "display2Font": "Rubik",
         "display2Size": 3,
-        "display5Font": "Rubik",
+        "display5Font": "Anton",
         "display5Size": 1.5,
         "display7Font": "Rubik",
         "display7Size": 1,
@@ -31,8 +31,7 @@
         "#222222",
         "#000000",
         "#a9e4b5",
-        "#444444",
-        "#666666"
+        "#444444"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -44,7 +43,7 @@
         "url": "https://fonts.googleapis.com/css?family=Anton:400"
       }
     ],
-    "uniqCompNum": 13,
+    "uniqCompNum": 9,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/personal-bartender-favicon-2017.png",
@@ -512,11 +511,11 @@
           "_name": "image1",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/mbr-1920x1275.jpg\" width=\"1400\" alt title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        <br><br><br><br><br><br><br>\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "r9UiMnf3Nl",
+          "_anchor": "image1-9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image1-9"
+          "_params": {}
         },
         {
           "_styles": {
@@ -533,16 +532,16 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Article Title with Solid Background\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r9UkknOoMM",
+          "_anchor": "content4-a",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-a"
+          "_params": {}
         },
         {
           "_params": {
-            "blockTitle": "<h3>Block Title</h3>",
-            "HTMLCode": "<h1>HTML Code</h1>",
+            "blockTitle": "",
+            "HTMLCode": "<style type=\"text/css\">\n#my_centered_buttons { display: flex; justify-content: center; }\n</style>\n<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\" id=\"my_centered_buttons\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_pinterest\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_facebook_messenger\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
             "extEdit": true,
             "paddingTop": 20,
             "bgImageRadio": false,
@@ -554,8 +553,8 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "blockTitle": "<h3>Block Title</h3>",
-          "HTMLCode": "<h1>HTML Code</h1>",
+          "blockTitle": "",
+          "HTMLCode": "<style type=\"text/css\">\n#my_centered_buttons { display: flex; justify-content: center; }\n</style>\n<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\" id=\"my_centered_buttons\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_pinterest\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_facebook_messenger\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
           "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
           "alias": "htmlblock",
           "_tags": [
@@ -576,11 +575,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\">\n                <b> Make your own website in a few clicks!</b> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <i>mobile friendly websites</i> in a few clicks. Mobirise is one of the easiest website development tools <a href=\"https://mobirise.co/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r9UlP0O0UU",
+          "_anchor": "content1-c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-c"
+          "_params": {}
         }
       ]
     }
