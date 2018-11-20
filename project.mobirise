@@ -14,10 +14,10 @@
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Anton",
-        "display1Size": 4.25,
+        "display1Size": "4",
         "display2Font": "Rubik",
         "display2Size": 3,
-        "display5Font": "Anton",
+        "display5Font": "Rubik",
         "display5Size": 1.5,
         "display7Font": "Rubik",
         "display7Size": 1,
@@ -31,7 +31,8 @@
         "#222222",
         "#000000",
         "#a9e4b5",
-        "#444444"
+        "#444444",
+        "#666666"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -43,7 +44,7 @@
         "url": "https://fonts.googleapis.com/css?family=Anton:400"
       }
     ],
-    "uniqCompNum": 9,
+    "uniqCompNum": 11,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/personal-bartender-favicon-2017.png",
@@ -570,24 +571,6 @@
             "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\">\n                <b> Make your own website in a few clicks!</b> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <i>mobile friendly websites</i> in a few clicks. Mobirise is one of the easiest website development tools <a href=\"https://mobirise.co/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "r9UlP0O0UU",
-          "_anchor": "content1-c",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
             },
             ".mbr-text DIV": {
               "color": "#000000"
@@ -597,13 +580,60 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Pense e anote sobre todos os detalhes.\n<div>\n</div><div>O conceito, a inspiração, a ambientação e principalmente o nome da sua marca.\n</div><div>\n</div><div>Considere a escolha de um nome curto, de fácil assimilação, que tenha um significado diretamente relacionado ao conceito.\n</div><div>\n</div><div>E que seja uma palavra que poderá ser facilmente pronunciada, pois estamos em tempos de globalização, sendo assim, ouse imaginar um futuro onde o nome de sua empresa será reconhecido e citado em outras partes do mundo.\n</div><div>\n</div><div>Se for composto, prefira \"aliterações\", quando todas as palavras tem a mesma letra inicial, ou uma fonética parecida.\n</div><div>\n</div><div>Como por exemplo: Coca-Cola ou Roto-Rooter.\n</div><div>\n</div><div>Isso intensifica o efeito sonoro do que está sendo dito e facilita a memorização.\n</div><div>\n</div><div>Pesquise em órgãos de marcas e patentes se o nome escolhido já está sendo usado por outra pessoa ou empresa; e em caso negativo, garanta o registro para você, evitando complicações futuras relacionadas a isso.\n</div><div>\n</div><div>Verifique também a disponibilidade para aquisição do domínio de internet pro site e crie perfis em redes sociais, que atualmente são de extrema importância para construir uma boa reputação, se comunicar com seu público e divulgar seus produtos e serviços.\n</div><div>\n</div><div>Escolha com muita atenção as cores que serão usadas para a logomarca e a identidade visual.\n</div><div>\n</div><div>Cada cor tem um significado específico e provoca nas pessoas um efeito diferente. Isso é uma estratégia muito utilizada para obter resultados positivos em marketing.\n</div><div>\n</div><div>Procure usar no máximo duas ou três cores, para não poluir visualmente o material gráfico, uniformes e decoração.\n</div><div>\n</div><div>Ainda pensando sobre a ideia central de sua marca, defina em conjunto com os sócios a Missão, a Visão e os Valores que você quer transmitir ao seu público.\n</div><div>\n</div><div>A Missão se refere ao motivo da existência do negócio, para qual finalidade a empresa foi criada.\n</div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"A missão do restaurante El Miguelito é oferecer a melhor e mais autêntica comida mexicana para as pessoas de São Paulo.\"\n</div><div>\n</div><div>A Visão está relacionada ao objetivo de médio prazo, que deverá ser alcançado e mantido.\n</div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"A visão desta empresa é ser reconhecida como a maior referência em qualidade de atendimento no país todo.\"\n</div><div>\n</div><div>E os Valores fazem parte da cultura comportamental da empresa. Ações constantes que geram benefícios mútuos.\n</div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"Nossa empresa respeita e apóia o cuidado com o meio ambiente, protegendo a natureza.\"</div></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>Pense e anote sobre todos os detalhes.</p><p>\n</p><div>\n</div><div>O conceito, a inspiração, a ambientação e principalmente o nome da sua marca.</div><div><br></div><div>\n</div><div>\n</div><div>Considere a escolha de um nome curto, de fácil assimilação, que tenha um significado diretamente relacionado ao conceito.</div><div><br></div><div>\n</div><div>\n</div><div>E que seja uma palavra que poderá ser facilmente pronunciada, pois estamos em tempos de globalização, sendo assim, ouse imaginar um futuro onde o nome de sua empresa será reconhecido e citado em outras partes do mundo.</div><div><br></div><div>\n</div><div>\n</div><div>Se for composto, prefira \"aliterações\", quando todas as palavras tem a mesma letra inicial, ou uma fonética parecida.</div><div><br></div><div>\n</div><div>\n</div><div>Como por exemplo: Coca-Cola ou Roto-Rooter.</div><div><br></div><div>\n</div><div>\n</div><div>Isso intensifica o efeito sonoro do que está sendo dito e facilita a memorização.</div><div><br></div><div>\n</div><div>\n</div><div>Pesquise em órgãos de marcas e patentes se o nome escolhido já está sendo usado por outra pessoa ou empresa; e em caso negativo, garanta o registro para você, evitando complicações futuras relacionadas a isso.</div><div><br></div><div>\n</div><div>\n</div><div>Verifique também a disponibilidade para aquisição do domínio de internet pro site e crie perfis em redes sociais, que atualmente são de extrema importância para construir uma boa reputação, se comunicar com seu público e divulgar seus produtos e serviços.</div><div><br></div><div>\n</div><div>\n</div><div>Escolha com muita atenção as cores que serão usadas para a logomarca e a identidade visual.\n</div><div>\n</div><div>Cada cor tem um significado específico e provoca nas pessoas um efeito diferente. Isso é uma estratégia muito utilizada para obter resultados positivos em marketing.</div><div><br></div><div>\n</div><div>\n</div><div>Procure usar no máximo duas ou três cores, para não poluir visualmente o material gráfico, uniformes e decoração.</div><div><br></div><div>\n</div><div>\n</div><div>Ainda pensando sobre a ideia central de sua marca, defina em conjunto com os sócios a Missão, a Visão e os Valores que você quer transmitir ao seu público.</div><div><br></div><div>\n</div><div>\n</div><div>A Missão se refere ao motivo da existência do negócio, para qual finalidade a empresa foi criada.&nbsp;</div><div><br></div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"A missão do restaurante El Miguelito é oferecer a melhor e mais autêntica comida mexicana para as pessoas de São Paulo.\"</div><div><br></div><div>\n</div><div>\n</div><div>A Visão está relacionada ao objetivo de médio prazo, que deverá ser alcançado e mantido.\n</div><div>\n</div><div><br></div><div>Exemplo:\n</div><div>\n</div><div>\"A visão desta empresa é ser reconhecida como a maior referência em qualidade de atendimento no país todo.\"</div><div><br></div><div>\n</div><div>\n</div><div>E os Valores fazem parte da cultura comportamental da empresa. Ações constantes que geram benefícios mútuos.</div><div><br></div><div>\n</div><div>\n</div><div>Exemplo:\n</div><div>\n</div><div>\"Nossa empresa respeita e apóia o cuidado com o meio ambiente, protegendo a natureza.\"</div><p></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "r9UqkrayGO",
           "_anchor": "content1-9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "socialFacebook": true,
+            "postsNumber": "4",
+            "socialGoogle": false,
+            "socialDisqus": false,
+            "shortName": "",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-a"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2017 Mobirise - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_cid": "r9Uwy1c4Jr",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {},
+          "_anchor": "footer6-9"
         }
       ]
     }
