@@ -1715,7 +1715,7 @@ body {
   background-color: #ffffff;
 }
 .cid-r9UkknOoMM .mbr-section-subtitle {
-  color: #666666;
+  color: #c1c1c1;
 }
 .cid-r9UkknOoMM H2 {
   color: #000000;
@@ -1737,6 +1737,9 @@ body {
 }
 .cid-r9Uwy1c4Jr {
   padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
+  padding-bottom: 60px;
+  background-color: #98d79a;
+}
+.cid-r9Uwy1c4Jr .media-container-row .mbr-text {
+  color: #000000;
 }
