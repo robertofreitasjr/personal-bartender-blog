@@ -542,9 +542,9 @@
         {
           "_params": {
             "blockTitle": "",
-            "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,green\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
-            "extEdit": true,
-            "paddingTop": "20",
+            "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
+            "extEdit": false,
+            "paddingTop": "0",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -555,8 +555,8 @@
             "overlayOpacity": 0.5
           },
           "blockTitle": "",
-          "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,green\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
-          "paddingTop": ".block {padding-bottom:20px; padding-top:20px;}",
+          "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
+          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
           "alias": "htmlblock",
           "_tags": [
             "Extension"
