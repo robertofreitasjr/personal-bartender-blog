@@ -544,7 +544,7 @@
             "blockTitle": "",
             "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
             "extEdit": false,
-            "paddingTop": "0",
+            "paddingTop": "20",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -556,7 +556,7 @@
           },
           "blockTitle": "",
           "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
-          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
+          "paddingTop": ".block {padding-bottom:20px; padding-top:20px;}",
           "alias": "htmlblock",
           "_tags": [
             "Extension"
@@ -629,11 +629,11 @@
           "_name": "footer6",
           "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2017 Mobirise - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>\n",
           "_cid": "r9Uwy1c4Jr",
+          "_anchor": "footer6-9",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
-          "_params": {},
-          "_anchor": "footer6-9"
+          "_params": {}
         }
       ]
     }
